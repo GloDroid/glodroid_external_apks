@@ -1,0 +1,10 @@
+android_app_import {
+    name: "Kodi",
+    apk: "Kodi.apk",
+    presigned: true,
+    privileged: false,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}

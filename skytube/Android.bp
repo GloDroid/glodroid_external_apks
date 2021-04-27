@@ -1,0 +1,10 @@
+android_app_import {
+    name: "SkyTube",
+    apk: "SkyTube.apk",
+    presigned: true,
+    privileged: false,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}

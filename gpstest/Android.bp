@@ -1,0 +1,10 @@
+android_app_import {
+    name: "gpstest",
+    apk: "gpstest.apk",
+    presigned: true,
+    privileged: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
