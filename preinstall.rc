@@ -1,0 +1,9 @@
+service preinstall /system/bin/sh /vendor/etc/preinstall/preinstall.sh
+    user root
+    group root
+    seclabel u:r:init:s0
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start preinstall
