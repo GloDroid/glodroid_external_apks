@@ -1,2 +1,3 @@
-# prebuilt_apps
-Repo consists of rebuilts tools needed for project
+# Applications
+
+Additional FOSS applications installed on first boot.
